@@ -19,7 +19,7 @@ namespace Array___Aula
             }
             for (int i = 0; i < 5; i++)
             {
-                console.WriteLine(String.Format("Elemento {0} = valor {1}, i, valores [i]));
+                 Console.WriteLine(String.Format("Elemento {0} = valor {1}", i, valores [i]));
             }
         }
     }
