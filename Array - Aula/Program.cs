@@ -17,6 +17,10 @@ namespace Array___Aula
                 Console.WriteLine(string.Format("Valor {0}:", i));
                 valores[i] = int.Parse(Console.ReadLine());
             }
+            for (int i = 0; i < 5; i++)
+            {
+                console.WriteLine(String.Format("Elemento {0} = valor {1}, i, valores [i]));
+            }
         }
     }
 }
