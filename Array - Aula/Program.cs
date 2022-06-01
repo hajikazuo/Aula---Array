@@ -21,6 +21,18 @@ namespace Array___Aula
             {
                  Console.WriteLine(String.Format("Elemento {0} = valor {1}", i, valores [i]));
             }
+            
+            // alteracao array
+            
+            int posicao;
+            
+            Console.WriteLine(String.Format("Novo valor da posição {0}:" posicao));
+            valores[posicao] = int.Parse(Console.ReadLine());
+            
+            for (int i = 0; i < 5; i++)
+            {
+                Console.WriteLine(String.Format("Elemento {0} = valor {1}", i, valores[i]));
+            }
         }
     }
 }
