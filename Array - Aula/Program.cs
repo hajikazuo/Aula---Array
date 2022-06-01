@@ -26,7 +26,10 @@ namespace Array___Aula
             
             int posicao;
             
-            Console.WriteLine(String.Format("Novo valor da posição {0}:" posicao));
+            Console.WriteLine("Qual a posição:");
+            posicao = int.Parse(Console.ReadLine());
+            
+            Console.WriteLine(String.Format("Novo valor da posição {0}:", posicao));
             valores[posicao] = int.Parse(Console.ReadLine());
             
             for (int i = 0; i < 5; i++)
